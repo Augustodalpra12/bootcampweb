@@ -1,7 +1,7 @@
 {
   "name": "vuetify-project",
   "version": "0.0.0",
-  "homepage": "https://{username}.github.io/{repo-name}/",
+  "homepage": "https://github.com/Augustodalpra12/bootcampweb.git",
   "scripts": {
     "predeploy" : "npm run build",
     "deploy" : "gh-pages -d dist",

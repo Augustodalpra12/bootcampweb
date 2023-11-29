@@ -2,7 +2,6 @@
 import vue from '@vitejs/plugin-vue'
 import vuetify, { transformAssetUrls } from 'vite-plugin-vuetify'
 import ViteFonts from 'unplugin-fonts/vite'
-import react from '@vitejs/plugin-react'
 
 
 // Utilities
@@ -15,8 +14,7 @@ export default defineConfig({
   plugins: [
     vue({
       template: { transformAssetUrls }
-    }),
-    react(),  
+    }),  
     // https://github.com/vuetifyjs/vuetify-loader/tree/master/packages/vite-plugin#readme
     vuetify({
       autoImport: true,
